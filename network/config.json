@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": ": In order to identify the leaders in the network, the quantity of interest in many social network studies is the “betweenness centrality” of an actor ‘i’. Betweenness centrality measures the fraction of all shortest paths that pass-through a given node or in simple terms it quantifies the number of times a node acts as a bridge along the shortest path between two other nodes. Nodes with high betweenness centrality play a crucial role in the information flow and cohesiveness of the network and are considered central and indispensable to the network due to their role in the flow of information in the network. Nodes with the high betweenness act as gate keeper.",
+    "intro": "Betweenness centrality measures the fraction of all shortest paths that pass-through a given node or in simple terms it quantifies the number of times a node acts as a bridge along the shortest path between two other nodes.",
+    "title": "Technology Based Network"
+  },
+  "legend": {
+    "edgeLabel": "realationship",
+    "colorLabel": "Based on Closeness Centrality  of the User",
+    "nodeLabel": "User"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Eigenvector Centrality",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Degree"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
